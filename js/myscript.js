@@ -1,7 +1,7 @@
 function loadBooks() {
  var xhttp = new XMLHttpRequest();
  xhttp.onreadystatechange = function() {
- if (this.readystate == 4 && this.status == 200) {
+ if (this.readyState == 4 && this.status == 200) {
   var books = this.responseText;
   var booksObj = JSON.parse(books);
   for (x = 0; x < booksObj.books.length; x++)
