@@ -14,9 +14,9 @@
           -but only if they're strong and can fight the demons that brought them here in the first place.",
       "reviews":
         [
-          {"firstReview":"Short but Powerful book"}
-          {"secondReview":"Great storytelling, just not for kids"}
-          {"thirdReview":"The free verse aspect of the book is a new way of storytelling"}
+          {"firstReview":"Short but Powerful book"},
+          {"secondReview":"Great storytelling, just not for kids"},
+          {"thirdReview":"The free verse aspect of the book is a new way of storytelling"},
         ]
       },
       {
@@ -29,9 +29,9 @@
           Lush, evocative, and deeply humane, the story of Santiago is an eternal testament to the transforming power of our dreams and the importance of listening to our hearts.",
       "reviews":
         [
-          {"firstReview":"A good parable just like 'The Prodigal Son'"}
-          {"secondReview":"Great fast read, hard to put down"}
-          {"thirdReview":"Great for kids and teens, teaches great lessons"}
+          {"firstReview":"A good parable just like 'The Prodigal Son'"},
+          {"secondReview":"Great fast read, hard to put down"},
+          {"thirdReview":"Great for kids and teens, teaches great lessons"},
         ]
       },
       {
@@ -44,11 +44,10 @@
        but their competition is complicated by Peeta's announcement that he is in love with Katniss.",
       "reviews":
         [
-        {"firstReview":"Great and engaging dystopian read"}
-        {"secondReview":"Quick read, Great concept"}
-        {"thirdReview":"Kept me reading and continue with the rest of the books"}
+        {"firstReview":"Great and engaging dystopian read"},
+        {"secondReview":"Quick read, Great concept"},
+        {"thirdReview":"Kept me reading and continue with the rest of the books"},
         ]
       }
     ]
-
 }
