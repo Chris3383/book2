@@ -10,7 +10,7 @@
         [
           {"firstReview":"Short but Powerful book"},
           {"secondReview":"Great storytelling, just not for kids"},
-          {"thirdReview":"The free verse aspect of the book is a new way of storytelling"}]
+          {"thirdReview":"The free verse aspect of the book is a new way of storytelling"} ]
       },
       {
       "title":"The Alchemist",
@@ -21,8 +21,7 @@
         [
           {"firstReview":"A good parable just like 'The Prodigal Son'"},
           {"secondReview":"Great fast read, hard to put down"},
-          {"thirdReview":"Great for kids and teens, teaches great lessons"},
-        ]
+          {"thirdReview":"Great for kids and teens, teaches great lessons"} ]
       },
       {
       "title":"The Hunger Games",
@@ -33,8 +32,7 @@
         [
         {"firstReview":"Great and engaging dystopian read"},
         {"secondReview":"Quick read, Great concept"},
-        {"thirdReview":"Kept me reading and continue with the rest of the books"},
-        ]
+        {"thirdReview":"Kept me reading and continue with the rest of the books"} ]
       }
     ]
 }
