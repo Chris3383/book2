@@ -39,3 +39,10 @@ function loadAuthor(){
   xhttp.open("GET", "books.json", true);
   xhttp.send();
  }
+
+ function showAuthors(authorsObj, x){
+   var author = authorsObj.authors[x];
+   var authorID = "book" + x + "Author";
+
+   document.getElementById(titleID).innerHTML = book.title;
+ }
