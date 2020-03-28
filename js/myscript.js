@@ -1,7 +1,7 @@
 function loadBooks() {
  var xhttp = new XMLHttpRequest();
  xhttp.onreadystatechange = function() {
- if (this.readyState == 4 && this.status == 200) {
+ if (this.readystate == 4 && this.status == 200) {
   var books = this.responseText;
   var booksObj = JSON.parse(books);
   for (x = 0; x < booksObj.books.length; x++)
@@ -23,3 +23,19 @@ function showBooks(booksObj, x){
   document.getElementById(summaryID).innerHTML = book.summary;
   document.getElementById(coverID).src = book.coverImage;
 }
+
+function loadAuthor(){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+  if (this.readystate == 4 && this.status == 200) {
+   var authors = this.responseText;
+   var authorsObj = JSON.parse(authors);
+   for (x = 0; x < authorsObj.authors.length; x++)
+    {
+     showBooks(authorsObj, x);
+    }
+   }
+  };
+  xhttp.open("GET", "books.json", true);
+  xhttp.send();
+ }
